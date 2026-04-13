@@ -224,13 +224,16 @@ h6 {
 }
 .textos-projetos {
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .buttons-projetos {
     height: 43px;
     display: flex;
 
-    align-items: end;
     align-self: end;
+    margin-top: auto;
+    align-items: end;
     justify-content: start;
 }
 .textos-projetos p {
